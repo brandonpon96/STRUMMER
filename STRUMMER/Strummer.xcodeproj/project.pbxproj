@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1152A477147F6A0D00DCD675 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1152A476147F6A0D00DCD675 /* AVFoundation.framework */; };
+		1D3623260D0F684500981E51 /* PdTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* PdTestAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1EF3B92A17988B4D006650A7 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EF3B92917988B4D006650A7 /* Storyboard.storyboard */; };
+		1EF3B93117988C35006650A7 /* aboutwrit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EF3B93017988C35006650A7 /* aboutwrit.jpg */; };
+		2899E5220DE3E06400AC0155 /* PdTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* PdTestViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* PdTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* PdTestViewController.m */; };
+		84204BB71796768100A7C33D /* iPhoneIcon_Small (3).png in Resources */ = {isa = PBXBuildFile; fileRef = 84204BB61796768100A7C33D /* iPhoneIcon_Small (3).png */; };
+		84446BA1179217C6003142DB /* bigguitar2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84446B9F179217C6003142DB /* bigguitar2.jpg */; };
+		84446BA2179217C6003142DB /* bigguitar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84446BA0179217C6003142DB /* bigguitar.jpg */; };
+		848DFA1D1794638200ADB345 /* ViewButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 848DFA1C1794638200ADB345 /* ViewButtons.m */; };
+		84B893DB1795034C006894D8 /* GuitarMain.pd in Resources */ = {isa = PBXBuildFile; fileRef = 84B893D91795034C006894D8 /* GuitarMain.pd */; };
+		84B893DC1795034C006894D8 /* CosmosGuitar.pd in Resources */ = {isa = PBXBuildFile; fileRef = 84B893DA1795034C006894D8 /* CosmosGuitar.pd */; };
+		84B893E11795B3D3006894D8 /* menu image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84B893E01795B3D2006894D8 /* menu image2.jpg */; };
+		84B893E51795BA18006894D8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B893E41795BA17006894D8 /* Default.png */; };
+		84B893F81795FE51006894D8 /* ViewSliders.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B893F71795FE51006894D8 /* ViewSliders.m */; };
+		AC07DADF1799306A00D05580 /* chord_page.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC07DADE1799306A00D05580 /* chord_page.jpg */; };
+		AC07DAE11799307500D05580 /* finalmenu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC07DAE01799307500D05580 /* finalmenu.jpg */; };
+		AC07DAE41799343100D05580 /* CM.pd in Resources */ = {isa = PBXBuildFile; fileRef = AC07DAE21799343100D05580 /* CM.pd */; };
+		AC07DAE51799343100D05580 /* Cminor.pd in Resources */ = {isa = PBXBuildFile; fileRef = AC07DAE31799343100D05580 /* Cminor.pd */; };
+		AC07DAE71799381700D05580 /* CosmosGuitarx.pd in Resources */ = {isa = PBXBuildFile; fileRef = AC07DAE61799381700D05580 /* CosmosGuitarx.pd */; };
+		AC07DAEE179944BB00D05580 /* pages.m in Sources */ = {isa = PBXBuildFile; fileRef = AC07DAED179944BB00D05580 /* pages.m */; };
+		CA628CDE1B79118E001E6AE1 /* libpd-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA628CD11B7910FB001E6AE1 /* libpd-ios.a */; };
+		CA628CE21B79297A001E6AE1 /* lrshift~.c in Sources */ = {isa = PBXBuildFile; fileRef = CA628CE11B79297A001E6AE1 /* lrshift~.c */; };
+		DC0C300E125D15FC008B6389 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC0C300D125D15FC008B6389 /* Foundation.framework */; };
+		DC0C3012125D160B008B6389 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC0C3011125D160B008B6389 /* UIKit.framework */; };
+		DC0C3016125D1614008B6389 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC0C3015125D1614008B6389 /* CoreGraphics.framework */; };
+		DC70C5FC129B28F8006CC055 /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = DC70C5FB129B28F8006CC055 /* ReadMe.txt */; };
+		DCCC7CDF125C3E0F002CF6AC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCC7CDE125C3E0F002CF6AC /* AudioToolbox.framework */; };
+		DCD724CF125D1A1E000A4BDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD724CE125D1A1E000A4BDE /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA628CD01B7910FB001E6AE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA628CCB1B7910FB001E6AE1 /* libpd.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = "libpd-ios";
+		};
+		CA628CD21B7910FB001E6AE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA628CCB1B7910FB001E6AE1 /* libpd.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 119013AB1486450C00086F19;
+			remoteInfo = "libpd-osx";
+		};
+		CA628CDA1B791163001E6AE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA628CD51B791163001E6AE1 /* libpd.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = "libpd-ios";
+		};
+		CA628CDC1B791163001E6AE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA628CD51B791163001E6AE1 /* libpd.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 119013AB1486450C00086F19;
+			remoteInfo = "libpd-osx";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1152A476147F6A0D00DCD675 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* PdTestAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PdTestAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* PdTestAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PdTestAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Strummer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Strummer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EF3B92917988B4D006650A7 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = SOURCE_ROOT; };
+		1EF3B93017988C35006650A7 /* aboutwrit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aboutwrit.jpg; sourceTree = "<group>"; };
+		2899E5210DE3E06400AC0155 /* PdTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PdTestViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* PdTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PdTestViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* PdTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PdTestViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Strummer_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Strummer_Prefix.pch; sourceTree = "<group>"; };
+		84204BB61796768100A7C33D /* iPhoneIcon_Small (3).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhoneIcon_Small (3).png"; sourceTree = "<group>"; };
+		84446B9F179217C6003142DB /* bigguitar2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bigguitar2.jpg; sourceTree = "<group>"; };
+		84446BA0179217C6003142DB /* bigguitar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bigguitar.jpg; sourceTree = "<group>"; };
+		848DFA1B1794638200ADB345 /* ViewButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewButtons.h; path = ../ViewButtons.h; sourceTree = "<group>"; };
+		848DFA1C1794638200ADB345 /* ViewButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewButtons.m; path = ../ViewButtons.m; sourceTree = "<group>"; };
+		84B893D91795034C006894D8 /* GuitarMain.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GuitarMain.pd; path = pdpatchesFixed/GuitarMain.pd; sourceTree = "<group>"; };
+		84B893DA1795034C006894D8 /* CosmosGuitar.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CosmosGuitar.pd; path = pdpatchesFixed/CosmosGuitar.pd; sourceTree = "<group>"; };
+		84B893E01795B3D2006894D8 /* menu image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "menu image2.jpg"; sourceTree = "<group>"; };
+		84B893E41795BA17006894D8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		84B893F61795FE51006894D8 /* ViewSliders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewSliders.h; sourceTree = "<group>"; };
+		84B893F71795FE51006894D8 /* ViewSliders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewSliders.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Strummer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Strummer-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		AC07DADE1799306A00D05580 /* chord_page.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chord_page.jpg; sourceTree = "<group>"; };
+		AC07DAE01799307500D05580 /* finalmenu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = finalmenu.jpg; sourceTree = "<group>"; };
+		AC07DAE21799343100D05580 /* CM.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CM.pd; path = pdpatchesFixed/CM.pd; sourceTree = "<group>"; };
+		AC07DAE31799343100D05580 /* Cminor.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Cminor.pd; path = pdpatchesFixed/Cminor.pd; sourceTree = "<group>"; };
+		AC07DAE61799381700D05580 /* CosmosGuitarx.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CosmosGuitarx.pd; path = pdpatchesFixed/CosmosGuitarx.pd; sourceTree = "<group>"; };
+		AC07DAEC179944BB00D05580 /* pages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pages.h; sourceTree = "<group>"; };
+		AC07DAED179944BB00D05580 /* pages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pages.m; sourceTree = "<group>"; };
+		CA628CCB1B7910FB001E6AE1 /* libpd.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libpd.xcodeproj; path = "pd-for-ios/libpd/libpd.xcodeproj"; sourceTree = "<group>"; };
+		CA628CD51B791163001E6AE1 /* libpd.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libpd.xcodeproj; path = "pd-for-ios/libpd/libpd.xcodeproj"; sourceTree = "<group>"; };
+		CA628CE11B79297A001E6AE1 /* lrshift~.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "lrshift~.c"; path = "pd-for-ios/libpd/pure-data/extra/lrshift~/lrshift~.c"; sourceTree = "<group>"; };
+		DC0C300D125D15FC008B6389 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC0C3011125D160B008B6389 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DC0C3015125D1614008B6389 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DC70C5FB129B28F8006CC055 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		DCCC7CDE125C3E0F002CF6AC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
+		DCD724CE125D1A1E000A4BDE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA628CDE1B79118E001E6AE1 /* libpd-ios.a in Frameworks */,
+				1152A477147F6A0D00DCD675 /* AVFoundation.framework in Frameworks */,
+				DCCC7CDF125C3E0F002CF6AC /* AudioToolbox.framework in Frameworks */,
+				DC0C300E125D15FC008B6389 /* Foundation.framework in Frameworks */,
+				DC0C3012125D160B008B6389 /* UIKit.framework in Frameworks */,
+				DC0C3016125D1614008B6389 /* CoreGraphics.framework in Frameworks */,
+				DCD724CF125D1A1E000A4BDE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				848DFA1B1794638200ADB345 /* ViewButtons.h */,
+				848DFA1C1794638200ADB345 /* ViewButtons.m */,
+				84B893F61795FE51006894D8 /* ViewSliders.h */,
+				1EF3B92917988B4D006650A7 /* Storyboard.storyboard */,
+				AC07DAEC179944BB00D05580 /* pages.h */,
+				AC07DAED179944BB00D05580 /* pages.m */,
+				84B893F71795FE51006894D8 /* ViewSliders.m */,
+				1D3623240D0F684500981E51 /* PdTestAppDelegate.h */,
+				1D3623250D0F684500981E51 /* PdTestAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* PdTestViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* PdTestViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Strummer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				CA628CD51B791163001E6AE1 /* libpd.xcodeproj */,
+				1EF3B93017988C35006650A7 /* aboutwrit.jpg */,
+				84204BB61796768100A7C33D /* iPhoneIcon_Small (3).png */,
+				84B893E41795BA17006894D8 /* Default.png */,
+				84B893E01795B3D2006894D8 /* menu image2.jpg */,
+				DC70C5FB129B28F8006CC055 /* ReadMe.txt */,
+				DCD6ACBC128B37E500C61BBE /* libpd extra externals */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Strummer_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84446B9F179217C6003142DB /* bigguitar2.jpg */,
+				AC07DAE01799307500D05580 /* finalmenu.jpg */,
+				84B893D91795034C006894D8 /* GuitarMain.pd */,
+				AC07DAE61799381700D05580 /* CosmosGuitarx.pd */,
+				AC07DAE21799343100D05580 /* CM.pd */,
+				AC07DAE31799343100D05580 /* Cminor.pd */,
+				84B893DA1795034C006894D8 /* CosmosGuitar.pd */,
+				AC07DADE1799306A00D05580 /* chord_page.jpg */,
+				84446BA0179217C6003142DB /* bigguitar.jpg */,
+				2899E5210DE3E06400AC0155 /* PdTestViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Strummer-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA628CCB1B7910FB001E6AE1 /* libpd.xcodeproj */,
+				1152A476147F6A0D00DCD675 /* AVFoundation.framework */,
+				DCCC7CDE125C3E0F002CF6AC /* AudioToolbox.framework */,
+				DC0C300D125D15FC008B6389 /* Foundation.framework */,
+				DC0C3011125D160B008B6389 /* UIKit.framework */,
+				DC0C3015125D1614008B6389 /* CoreGraphics.framework */,
+				DCD724CE125D1A1E000A4BDE /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA628CCC1B7910FB001E6AE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA628CD11B7910FB001E6AE1 /* libpd-ios.a */,
+				CA628CD31B7910FB001E6AE1 /* libpd-osx.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA628CD61B791163001E6AE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA628CDB1B791163001E6AE1 /* libpd-ios.a */,
+				CA628CDD1B791163001E6AE1 /* libpd-osx.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCD6ACBC128B37E500C61BBE /* libpd extra externals */ = {
+			isa = PBXGroup;
+			children = (
+				CA628CE11B79297A001E6AE1 /* lrshift~.c */,
+			);
+			name = "libpd extra externals";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Strummer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Strummer" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Strummer;
+			productName = PdTest01;
+			productReference = 1D6058910D05DD3D006BFB54 /* Strummer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Strummer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CA628CCC1B7910FB001E6AE1 /* Products */;
+					ProjectRef = CA628CCB1B7910FB001E6AE1 /* libpd.xcodeproj */;
+				},
+				{
+					ProductGroup = CA628CD61B791163001E6AE1 /* Products */;
+					ProjectRef = CA628CD51B791163001E6AE1 /* libpd.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Strummer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CA628CD11B7910FB001E6AE1 /* libpd-ios.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libpd-ios.a";
+			remoteRef = CA628CD01B7910FB001E6AE1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CA628CD31B7910FB001E6AE1 /* libpd-osx.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libpd-osx.a";
+			remoteRef = CA628CD21B7910FB001E6AE1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CA628CDB1B791163001E6AE1 /* libpd-ios.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libpd-ios.a";
+			remoteRef = CA628CDA1B791163001E6AE1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CA628CDD1B791163001E6AE1 /* libpd-osx.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libpd-osx.a";
+			remoteRef = CA628CDC1B791163001E6AE1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* PdTestViewController.xib in Resources */,
+				DC70C5FC129B28F8006CC055 /* ReadMe.txt in Resources */,
+				84446BA1179217C6003142DB /* bigguitar2.jpg in Resources */,
+				84446BA2179217C6003142DB /* bigguitar.jpg in Resources */,
+				84B893DB1795034C006894D8 /* GuitarMain.pd in Resources */,
+				84B893DC1795034C006894D8 /* CosmosGuitar.pd in Resources */,
+				84B893E11795B3D3006894D8 /* menu image2.jpg in Resources */,
+				84B893E51795BA18006894D8 /* Default.png in Resources */,
+				84204BB71796768100A7C33D /* iPhoneIcon_Small (3).png in Resources */,
+				1EF3B92A17988B4D006650A7 /* Storyboard.storyboard in Resources */,
+				1EF3B93117988C35006650A7 /* aboutwrit.jpg in Resources */,
+				AC07DADF1799306A00D05580 /* chord_page.jpg in Resources */,
+				AC07DAE11799307500D05580 /* finalmenu.jpg in Resources */,
+				AC07DAE41799343100D05580 /* CM.pd in Resources */,
+				AC07DAE51799343100D05580 /* Cminor.pd in Resources */,
+				AC07DAE71799381700D05580 /* CosmosGuitarx.pd in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* PdTestAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* PdTestViewController.m in Sources */,
+				848DFA1D1794638200ADB345 /* ViewButtons.m in Sources */,
+				84B893F81795FE51006894D8 /* ViewSliders.m in Sources */,
+				CA628CE21B79297A001E6AE1 /* lrshift~.c in Sources */,
+				AC07DAEE179944BB00D05580 /* pages.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Strummer_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "Strummer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = Strummer;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "/Users/brandon/Documents/XCode/STRUMMER/pd-for-ios/libpd/** /Users/cosmosCluster5/Documents/pd-for-ios/libpd/**";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Strummer_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "Strummer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = Strummer;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "/Users/brandon/Documents/XCode/STRUMMER/pd-for-ios/libpd/** /Users/cosmosCluster5/Documents/pd-for-ios/libpd/**";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"../libpd/pure-data/src",
+					../libpd/objc,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"../libpd/pure-data/src",
+					../libpd/objc,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Strummer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Strummer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

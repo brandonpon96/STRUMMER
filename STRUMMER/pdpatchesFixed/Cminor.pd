@@ -1,0 +1,83 @@
+#N canvas 434 42 810 600 10;
+#X obj 383 465 *~ 0.5;
+#X obj 385 315 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 434 294 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 327 315 G String;
+#X text 380 291 D String;
+#X obj 468 265 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 501 235 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 412 264 A String;
+#X text 444 234 E String;
+#X obj 354 347 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 323 373 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 295 342 B String;
+#X text 234 372 High E String;
+#X obj 501 208 r Esynth;
+#X obj 401 233 r Asynth;
+#X obj 341 263 r Dsynth;
+#X obj 290 288 r Gsynth;
+#X obj 238 316 r Bsynth;
+#X obj 240 405 r HiEsynth;
+#X obj 118 102 list-sub;
+#X obj 385 345 CosmosGuitar 5.1 0.997 196 190 450;
+#X obj 334 120 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 94 122 hsl 128 15 0 500 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 0 1;
+#X floatatom 192 161 5 0 0 0 - - -;
+#X obj 156 298 del;
+#X obj 194 251 del;
+#X obj 369 195 del;
+#X obj 314 217 del 40;
+#X obj 262 235 del 80;
+#X obj 328 71 inlet;
+#X obj 378 500 throw~ signal2;
+#X obj 501 261 CosmosGuitar 10.2 0.997 82 50 55;
+#X obj 468 291 CosmosGuitar 7.64 0.997 110 100 100;
+#X obj 436 319 CosmosGuitar 6.42 0.997 144 244 250;
+#X obj 354 373 CosmosGuitar 3.82 0.995 247 240 450;
+#X obj 324 399 CosmosGuitar 2.55 0.995 329 300 456;
+#X connect 0 0 30 0;
+#X connect 1 0 20 0;
+#X connect 1 0 25 0;
+#X connect 2 0 28 0;
+#X connect 2 0 33 0;
+#X connect 5 0 27 0;
+#X connect 5 0 32 0;
+#X connect 6 0 26 0;
+#X connect 6 0 31 0;
+#X connect 9 0 24 0;
+#X connect 9 0 34 0;
+#X connect 10 0 35 0;
+#X connect 13 0 6 0;
+#X connect 14 0 5 0;
+#X connect 15 0 2 0;
+#X connect 16 0 1 0;
+#X connect 17 0 9 0;
+#X connect 18 0 10 0;
+#X connect 20 0 0 0;
+#X connect 21 0 26 0;
+#X connect 21 0 6 0;
+#X connect 22 0 23 0;
+#X connect 23 0 26 1;
+#X connect 23 0 27 1;
+#X connect 23 0 28 1;
+#X connect 23 0 25 1;
+#X connect 23 0 24 1;
+#X connect 24 0 10 0;
+#X connect 25 0 9 0;
+#X connect 26 0 5 0;
+#X connect 27 0 2 0;
+#X connect 28 0 1 0;
+#X connect 29 0 21 0;
+#X connect 31 0 0 0;
+#X connect 32 0 0 0;
+#X connect 33 0 0 0;
+#X connect 34 0 0 0;
+#X connect 35 0 0 0;
